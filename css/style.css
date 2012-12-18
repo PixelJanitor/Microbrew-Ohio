@@ -61,6 +61,7 @@ body {
 	line-height: 1;
 	background-color: #1a1a1a;
 	font-family: 'brandon_grotesque_blackRg', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .header {
@@ -236,7 +237,7 @@ div#barleys:hover ~ div.ohio div#columbus {
 }
 
 #barleys:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#oldbag:hover ~ div.ohio div.dot.two { 
@@ -259,7 +260,7 @@ div#oldbag:hover ~ div.ohio div#columbus {
 }
 
 #oldbag:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#greatlakes:hover ~ div.ohio div.dot.three { 
@@ -282,7 +283,7 @@ div#greatlakes:hover ~ div.ohio div.pulse.pulse-three {
 }
 
 #greatlakes:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#elevator:hover ~ div.ohio div.dot.four { 
@@ -305,7 +306,7 @@ div#elevator:hover ~ div.ohio div#columbus {
 }
 
 #elevator:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#gordon:hover ~ div.ohio div.dot.five { 
@@ -328,7 +329,7 @@ div#gordon:hover ~ div.ohio div#columbus {
 }
 
 #gordon:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#lincoln:hover ~ div.ohio div.dot.six { 
@@ -351,7 +352,7 @@ div#lincoln:hover ~ div.ohio div#cleveland {
 }
 
 #lincoln:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#flanagans:hover ~ div.ohio div.dot.seven { 
@@ -374,7 +375,7 @@ div#flanagans:hover ~ div.ohio div#dayton {
 }
 
 #flanagans:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#kingys:hover ~ div.ohio div.dot.eight { 
@@ -397,7 +398,7 @@ div#kingys:hover ~ div.ohio div#columbus {
 }
 
 #kingys:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#omannys:hover ~ div.ohio div.dot.nine { 
@@ -420,7 +421,7 @@ div#omannys:hover ~ div.ohio div#columbus {
 }
 
 #omannys:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 div#flyingmonkey:hover ~ div.ohio div.dot.ten { 
@@ -443,7 +444,7 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
 }
 
 #flyingmonkey:hover h2{ 
-  color: #aeaeae;
+  color: #eaeaea;
 }
 
 .pulse {
