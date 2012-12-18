@@ -427,7 +427,7 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
   width: 100px;
   height: 101px;
   -webkit-animation-name: pulse;
-  -webkit-animation-duration: 1.2s;
+  -webkit-animation-duration: 1.6s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-direction: normal;
 	-webkit-animation-iteration-count: infinite;
