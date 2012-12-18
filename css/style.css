@@ -102,6 +102,7 @@ body {
 }
 
 .wrapper {
+  position: relative;
   width: 721px;
   margin: 5% auto;
 }
@@ -111,14 +112,26 @@ ul {
   vertical-align: top;
 }
 
-li{
+h2{
   font-size: 24px;
   color: #2a2a2a;
-  line-height: 1.74;
+  -webkit-transition: color .3s ease-out;
   letter-spacing: .1em;
+  margin-left: 10px;
+}
+
+.rating {
+  position: relative;
+  top: 21px;
+  background: url(../images/rating.png);
+  width: 120px;
+  height: 21px;
 }
 
 .ohio {
+  position: absolute;
+  top: 0;
+  right: 0;
   background: url(../images/ohio-large.png);
   width: 369px;
   height: 400px;
@@ -127,7 +140,197 @@ li{
   margin-left: 20%;
 }
 
+.dot {
+  opacity: 0;
+  -webkit-transition: opacity .1s ease-in;
+  position: absolute;
+  background: url(../images/dot.png);
+  width: 12px;
+  height: 13px;
+}
 
+a {
+  -webkit-transition: left .2s ease-out;
+  display: block;
+	margin-bottom: -6px;
+	position: relative;
+	background-color: #1a1a1a;
+}
+
+.brewery {
+  width: 340px;
+}
+
+
+.one { 
+  left: 149px;
+  top: 213px;
+}
+
+.two {
+  left: 151px;
+  top: 204px;
+}
+
+.three {
+  left: 250px;
+  top: 57px;
+}
+
+.four {
+  left: 152px;
+  top: 222px;
+}
+
+.five {
+  left: 143px;
+  top: 220px;
+}
+
+.six {
+  left: 267px;
+  top: 53px;
+}
+
+.seven {
+  left: 59px;
+  top: 242px;
+}
+
+.eight {
+  left: 169px;
+  top: 230px;
+}
+
+.nine {
+  left: 142px;
+  top: 207px;
+}
+
+.ten {
+  left: 259px;
+  top: 57px;
+}
+
+div#barleys:hover ~ div.ohio div.dot.one { 
+  opacity: 1;
+}
+
+#barleys:hover a{ 
+  left: 120px;
+}
+
+#barleys:hover h2{ 
+  color: #aeaeae;
+}
+
+div#oldbag:hover ~ div.ohio div.dot.two { 
+  opacity: 1;
+}
+
+#oldbag:hover a{ 
+  left: 120px;
+}
+
+#oldbag:hover h2{ 
+  color: #aeaeae;
+}
+
+div#greatlakes:hover ~ div.ohio div.dot.three { 
+  opacity: 1;
+}
+
+#greatlakes:hover a{ 
+  left: 109px;
+}
+
+#greatlakes:hover h2{ 
+  color: #aeaeae;
+}
+
+div#elevator:hover ~ div.ohio div.dot.four { 
+  opacity: 1;
+}
+
+#elevator:hover a{ 
+  left: 109px;
+}
+
+#elevator:hover h2{ 
+  color: #aeaeae;
+}
+
+div#gordon:hover ~ div.ohio div.dot.five { 
+  opacity: 1;
+}
+
+#gordon:hover a{ 
+  left: 96px;
+}
+
+#gordon:hover h2{ 
+  color: #aeaeae;
+}
+
+div#lincoln:hover ~ div.ohio div.dot.six { 
+  opacity: 1;
+}
+
+#lincoln:hover a{ 
+  left: 96px;
+}
+
+#lincoln:hover h2{ 
+  color: #aeaeae;
+}
+
+div#flanagans:hover ~ div.ohio div.dot.seven { 
+  opacity: 1;
+}
+
+#flanagans:hover a{ 
+  left: 96px;
+}
+
+#flanagans:hover h2{ 
+  color: #aeaeae;
+}
+
+div#kingys:hover ~ div.ohio div.dot.eight { 
+  opacity: 1;
+}
+
+#kingys:hover a{ 
+  left: 85px;
+}
+
+#kingys:hover h2{ 
+  color: #aeaeae;
+}
+
+div#omannys:hover ~ div.ohio div.dot.nine { 
+  opacity: 1;
+}
+
+#omannys:hover a{ 
+  left: 85px;
+}
+
+#omannys:hover h2{ 
+  color: #aeaeae;
+}
+
+div#flyingmonkey:hover ~ div.ohio div.dot.ten { 
+  opacity: 1;
+}
+
+#flyingmonkey:hover a{ 
+  left: 72px;
+}
+
+#flyingmonkey:hover h2{ 
+  color: #aeaeae;
+}
 
 
 
@@ -148,6 +351,16 @@ li{
 
 .ohio {
   background: url(../images/ohio-large@2x.png);
+  background-size: 100%;
+}
+
+.dot {
+  background: url(../images/dot@2x.png);
+  background-size: 100%;
+}
+
+.rating {
+  background: url(../images/rating@2x.png);
   background-size: 100%;
 }
 
