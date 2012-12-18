@@ -216,6 +216,7 @@ div#barleys:hover ~ div.ohio div.dot.one {
 
 div#barleys:hover ~ div.ohio div.pulse.pulse-one { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#barleys:hover ~ div.ohio div#columbus { 
@@ -236,6 +237,7 @@ div#oldbag:hover ~ div.ohio div.dot.two {
 
 div#oldbag:hover ~ div.ohio div.pulse.pulse-two { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#oldbag:hover ~ div.ohio div#columbus { 
@@ -260,6 +262,7 @@ div#greatlakes:hover ~ div.ohio div#cleveland {
 
 div#greatlakes:hover ~ div.ohio div.pulse.pulse-three { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 #greatlakes:hover a{ 
@@ -276,6 +279,7 @@ div#elevator:hover ~ div.ohio div.dot.four {
 
 div#elevator:hover ~ div.ohio div.pulse.pulse-four { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#elevator:hover ~ div.ohio div#columbus { 
@@ -296,6 +300,7 @@ div#gordon:hover ~ div.ohio div.dot.five {
 
 div#gordon:hover ~ div.ohio div.pulse.pulse-five { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#gordon:hover ~ div.ohio div#columbus { 
@@ -316,6 +321,7 @@ div#lincoln:hover ~ div.ohio div.dot.six {
 
 div#lincoln:hover ~ div.ohio div.pulse.pulse-six { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#lincoln:hover ~ div.ohio div#cleveland { 
@@ -336,6 +342,7 @@ div#flanagans:hover ~ div.ohio div.dot.seven {
 
 div#flanagans:hover ~ div.ohio div.pulse.pulse-seven { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#flanagans:hover ~ div.ohio div#dayton { 
@@ -356,6 +363,7 @@ div#kingys:hover ~ div.ohio div.dot.eight {
 
 div#kingys:hover ~ div.ohio div.pulse.pulse-eight { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#kingys:hover ~ div.ohio div#columbus { 
@@ -376,6 +384,7 @@ div#omannys:hover ~ div.ohio div.dot.nine {
 
 div#omannys:hover ~ div.ohio div.pulse.pulse-nine { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#omannys:hover ~ div.ohio div#columbus { 
@@ -396,6 +405,7 @@ div#flyingmonkey:hover ~ div.ohio div.dot.ten {
 
 div#flyingmonkey:hover ~ div.ohio div.pulse.pulse-ten { 
   -webkit-animation-play-state: running;
+  visibility: visible;
 }
 
 div#flyingmonkey:hover ~ div.ohio div#cleveland { 
@@ -412,11 +422,12 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
 
 .pulse {
   position: absolute;
+  visibility: hidden;
   background: url(../images/pulse.png);
   width: 100px;
   height: 101px;
   -webkit-animation-name: pulse;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1.2s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-direction: normal;
 	-webkit-animation-iteration-count: infinite;
