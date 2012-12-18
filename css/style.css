@@ -114,6 +114,8 @@ h2{
   font-size: 24px;
   color: #2a2a2a;
   -webkit-transition: color .3s ease-out;
+  -moz-transition: color .3s ease-out;
+  -ms-transition: color .3s ease-out;
   letter-spacing: .1em;
   margin-left: 10px;
 }
@@ -141,6 +143,8 @@ h2{
 .dot {
   opacity: 0;
   -webkit-transition: opacity .1s ease-in;
+  -moz-transition: opacity .1s ease-in;
+  -ms-transition: opacity .1s ease-in;
   position: absolute;
   background: url(../images/dot.png);
   width: 12px;
@@ -149,6 +153,8 @@ h2{
 
 a {
   -webkit-transition: left .2s ease-out;
+  -moz-transition: left .2s ease-out;
+  -ms-transition: left .2s ease-out;
   display: block;
 	margin-bottom: -6px;
 	position: relative;
@@ -216,6 +222,8 @@ div#barleys:hover ~ div.ohio div.dot.one {
 
 div#barleys:hover ~ div.ohio div.pulse.pulse-one { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -237,6 +245,8 @@ div#oldbag:hover ~ div.ohio div.dot.two {
 
 div#oldbag:hover ~ div.ohio div.pulse.pulse-two { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -262,6 +272,8 @@ div#greatlakes:hover ~ div.ohio div#cleveland {
 
 div#greatlakes:hover ~ div.ohio div.pulse.pulse-three { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -279,6 +291,8 @@ div#elevator:hover ~ div.ohio div.dot.four {
 
 div#elevator:hover ~ div.ohio div.pulse.pulse-four { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -300,6 +314,8 @@ div#gordon:hover ~ div.ohio div.dot.five {
 
 div#gordon:hover ~ div.ohio div.pulse.pulse-five { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -321,6 +337,8 @@ div#lincoln:hover ~ div.ohio div.dot.six {
 
 div#lincoln:hover ~ div.ohio div.pulse.pulse-six { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -342,6 +360,8 @@ div#flanagans:hover ~ div.ohio div.dot.seven {
 
 div#flanagans:hover ~ div.ohio div.pulse.pulse-seven { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -363,6 +383,8 @@ div#kingys:hover ~ div.ohio div.dot.eight {
 
 div#kingys:hover ~ div.ohio div.pulse.pulse-eight { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -384,6 +406,8 @@ div#omannys:hover ~ div.ohio div.dot.nine {
 
 div#omannys:hover ~ div.ohio div.pulse.pulse-nine { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -405,6 +429,8 @@ div#flyingmonkey:hover ~ div.ohio div.dot.ten {
 
 div#flyingmonkey:hover ~ div.ohio div.pulse.pulse-ten { 
   -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
   visibility: visible;
 }
 
@@ -433,6 +459,20 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-play-state: paused;
+	-moz-animation-name: pulse;
+  -moz-animation-duration: 1.6s;
+	-moz-animation-delay: 0s;
+	-moz-animation-direction: normal;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-play-state: paused;
+	-ms-animation-name: pulse;
+  -ms-animation-duration: 1.6s;
+	-ms-animation-delay: 0s;
+	-ms-animation-direction: normal;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	-ms-animation-play-state: paused;
 }
 
 @-webkit-keyframes pulse {
@@ -440,6 +480,20 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
   25% { -webkit-transform: scale(.5); opacity: 1; }
   75% { -webkit-transform: scale(1); opacity: 0; }
 	100% { -webkit-transform: scale(1); opacity: 0; }
+}
+
+@-moz-keyframes pulse {
+  0% { -moz-transform: scale(0); opacity: 0; }
+  25% { -moz-transform: scale(.5); opacity: 1; }
+  75% { -moz-transform: scale(1); opacity: 0; }
+	100% { -moz-transform: scale(1); opacity: 0; }
+}
+
+@-ms-keyframes pulse {
+  0% { -ms-transform: scale(0); opacity: 0; }
+  25% { -ms-transform: scale(.5); opacity: 1; }
+  75% { -ms-transform: scale(1); opacity: 0; }
+	100% { -ms-transform: scale(1); opacity: 0; }
 }
 
 .pulse-one {
@@ -500,6 +554,8 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
   left: 108px;
   opacity: 0;
   -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -ms-transition: opacity .3s ease-out;
 }
 
 #cleveland {
@@ -509,6 +565,10 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
   top: 124px;
   left: 108px;
   opacity: 0;
+  -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -ms-transition: opacity .3s ease-out;
+  
 }
 
 #dayton {
@@ -518,6 +578,9 @@ div#flyingmonkey:hover ~ div.ohio div#cleveland {
   top: 124px;
   left: 128px;
   opacity: 0;
+  -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -ms-transition: opacity .3s ease-out;
 }
 
 footer {
